@@ -1,0 +1,18 @@
+.headers{
+    padding: 1%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1557dc;
+    color: white;
+    font-size: 24px;
+}
+.header-margin{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.header-link{
+    color: white;
+}
+.header-link:hover{
+    color: rgb(242, 63, 9);
+}

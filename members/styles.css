@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(27, 25, 25);
+    background-size: cover;
+    
+    
+}
+body::before{
+    opacity: 0.75;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.potrait-img{
+    width: 25%;
+    border-radius: 10%;
+    margin-left: 2%;
+}
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+.description{
+    width: 75%;
+    margin-left: 5%;
+    color: white;
+    flex: auto;
+}
