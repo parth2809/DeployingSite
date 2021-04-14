@@ -30,6 +30,6 @@ jobs:
           username: ${{secrets.SSH_USERNAME}}
           
           script: |
-            cd /var/www
-            git clone https://github.com/parth2809/DeployingSite html
-            echo 'Deployment Successful'
+            cd /var/www/html
+            git pull origin main
+            echo 'Content updated'
