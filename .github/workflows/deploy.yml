@@ -34,3 +34,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Deploy application
+      - uses: appleboy/ssh-action@v0.1.2
+      - with:
+          host: ${{secrets.SSH_HOST}}
+          key: ${{secrets.SSH_KEY}}
+          username: ${{secrets.SSH_USERNAME}}
+          
+          script: |
+            cd /var/www/html
+            git clone https://github.com/parth2809/DeployingSite.git
+            echo 'Deployment Successful'
