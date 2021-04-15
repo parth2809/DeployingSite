@@ -1,3 +1,4 @@
+
 .headers{
     padding: 1%;
     text-align: center;
@@ -15,4 +16,20 @@
 }
 .header-link:hover{
     color: rgb(242, 63, 9);
+}
+
+.body-content{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover{
+  color: orange; 
 }
